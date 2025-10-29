@@ -5,12 +5,12 @@ set -e
 # This script runs the entire role via ansible-playbook
 
 # Determine the ansible modules directory
-#if [ -n "$PT__installdir" ]; then
-#  ANSIBLE_DIR="$PT__installdir/lib/puppet_x/ansible_modules/nginxinc_nginx_core"
-#else
+if [ -n "$PT__installdir" ]; then
+  ANSIBLE_DIR="$PT__installdir/lib/puppet_x/ansible_modules/nginxinc_nginx_core"
+else
   # Fallback to /opt/puppetlabs/puppet/cache/lib/puppet_x/ansible_modules
   ANSIBLE_DIR="/opt/puppetlabs/puppet/cache/lib/puppet_x/ansible_modules/nginxinc_nginx_core/roles/nginx"
-#fi
+fi
 
 # Check if ansible-playbook is available
 if ! command -v ansible-playbook &> /dev/null; then
