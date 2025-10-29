@@ -163,8 +163,8 @@
       "type": "String"
     }
   },
-  "files": [
-    "nginx.sh",
-    "nginx.ps1"
+  "implementations": [
+    {"name": "nginx.sh", "requirements": ["shell"]},
+    {"name": "nginx.ps1", "requirements": ["powershell"]}
   ]
 }
