@@ -9,7 +9,7 @@ set -e
 #  ANSIBLE_DIR="$PT__installdir/lib/puppet_x/ansible_modules/nginxinc_nginx_core"
 #else
   # Fallback to /opt/puppetlabs/puppet/cache/lib/puppet_x/ansible_modules
-  ANSIBLE_DIR="/opt/puppetlabs/puppet/cache/lib/puppet_x/ansible_modules/nginxinc_nginx_core"
+  ANSIBLE_DIR="/opt/puppetlabs/puppet/cache/lib/puppet_x/ansible_modules/nginxinc_nginx_core/roles/nginx"
 #fi
 
 # Check if ansible-playbook is available
