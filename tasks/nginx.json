@@ -4,163 +4,163 @@
   "parameters": {
     "path": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "option": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_timeoutstartsec": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_timeoutstopsec": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_restart": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_restartsec": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_amplify_enable": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_amplify_api_key": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_bsd_install_packages": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_bsd_update_ports": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_bsd_portinstall_use_packages": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_logrotate_conf_enable": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_logrotate_conf": {
       "description": "Parameter from role",
-      "type": "Hash"
+      "type": "Optional[Hash]"
     },
     "nginx_enable": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_debug_output": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_type": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_start": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_setup": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_manage_repo": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_install_from": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_install_source_build_tools": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_install_source_pcre": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_install_source_openssl": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_install_source_zlib": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_static_modules": {
       "description": "Parameter from role",
-      "type": "Array"
+      "type": "Optional[Array]"
     },
     "nginx_branch": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_license": {
       "description": "Parameter from role",
-      "type": "Hash"
+      "type": "Optional[Hash]"
     },
     "nginx_setup_license": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_remove_license": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_install_epel_release": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_modules": {
       "description": "Parameter from role",
-      "type": "Array"
+      "type": "Optional[Array]"
     },
     "nginx_selinux": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_selinux_enforcing": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_selinux_tempdir": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_modify": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_service_clean": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_service_overridepath": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_overridefilename": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     },
     "nginx_service_custom": {
       "description": "Parameter from role",
-      "type": "Boolean"
+      "type": "Optional[Boolean]"
     },
     "nginx_service_custom_file": {
       "description": "Parameter from role",
-      "type": "String"
+      "type": "Optional[String]"
     }
   },
   "implementations": [
