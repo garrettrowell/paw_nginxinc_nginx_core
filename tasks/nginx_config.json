@@ -1,0 +1,226 @@
+{
+  "description": "Execute the entire Ansible role imperatively",
+  "input_method": "environment",
+  "parameters": {
+    "module": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "connection": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "address": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "signature": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "allow": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "deny": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "file": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "directive": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "header": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "command": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "condition": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "certificate": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "key": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "ansible_managed": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "nginx_config_start": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_debug_output": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_cleanup": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_selinux": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_selinux_enforcing": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_html_demo_template_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_html_demo_template": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_main_template_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_main_template": {
+      "description": "Parameter from role",
+      "type": "Hash"
+    },
+    "nginx_config_http_template_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_http_template": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_status_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_status_template_file": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "nginx_config_status_file_location": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "nginx_config_status_backup": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_status_port": {
+      "description": "Parameter from role",
+      "type": "Integer"
+    },
+    "nginx_config_status_access_log": {
+      "description": "Parameter from role",
+      "type": "Hash"
+    },
+    "nginx_config_status_allow": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_status_deny": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_rest_api_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_rest_api_template_file": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "nginx_config_rest_api_file_location": {
+      "description": "Parameter from role",
+      "type": "String"
+    },
+    "nginx_config_rest_api_backup": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_rest_api_port": {
+      "description": "Parameter from role",
+      "type": "Integer"
+    },
+    "nginx_config_rest_api_write": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_rest_api_access_log": {
+      "description": "Parameter from role",
+      "type": "Hash"
+    },
+    "nginx_config_rest_api_allow": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_rest_api_deny": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_rest_api_dashboard": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_rest_api_dashboard_allow": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_rest_api_dashboard_deny": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_stream_template_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_stream_template": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_upload_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_upload": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_upload_html_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_upload_html": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_upload_ssl_enable": {
+      "description": "Parameter from role",
+      "type": "Boolean"
+    },
+    "nginx_config_upload_ssl_crt": {
+      "description": "Parameter from role",
+      "type": "Array"
+    },
+    "nginx_config_upload_ssl_key": {
+      "description": "Parameter from role",
+      "type": "Array"
+    }
+  },
+  "files": [
+    "nginx_config.sh",
+    "nginx_config.ps1"
+  ]
+}
